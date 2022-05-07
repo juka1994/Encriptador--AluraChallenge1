@@ -1,0 +1,157 @@
+#fondo{
+   
+    background:  #E77F7F;
+
+}
+
+.letra{
+    font-family: 'Roboto Mono', monospace;
+    color: #000;
+}
+
+textarea::placeholder{
+    color: #000;
+}
+
+.contenedor{
+    width: 100%;
+    max-width: 1400px;
+}
+
+.lado-izquierdo{
+    width: 60%;
+    padding: 20px;
+    max-height: 625px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.alura-logo{
+    float: left;
+}
+img{
+    width: 400px;
+    float: right;
+}
+.lado-abajo-izquierdo{
+    width: 100%;
+    padding-top: 30px;
+    padding-left: 25%;
+}
+.lado-abajo-izquierdo p{
+    margin: 10px auto;
+}
+
+
+.boton-izquierdo{
+    border: none;
+    padding: 15px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #FFff;
+    border-radius: 25px;
+}
+
+.boton-izquierdo:hover{
+    background-color: #A9EBE5;
+}
+
+.boton-derecho{
+    border: none;
+    padding: 15px;
+    margin-left: 200px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #FFff;
+    border-radius: 25px;
+}
+
+.boton-derecho:hover{
+    background-color: #A9EBE5;
+}
+
+#entrada{
+    border: 0;
+    outline: none;
+    background: #E77F7F;
+    width: 100%;
+    padding-top: 150px;
+}
+
+.lado-derecho{
+    
+    width: 40%;
+    padding: 20px;
+    max-height: 625px;
+    float: right;
+    box-sizing: border-box;
+    
+}
+
+#mensaje{
+    width: 90%;
+    border: 0;
+    outline: none;
+    background: #A9EBE5;
+}
+
+.copiar{
+    display: none;
+    border: none;
+    padding: 15px;
+    margin-bottom: 10px;
+    margin-left: 215px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #FFff;
+    border-radius: 25px;
+}
+
+.copiar:hover{
+    background-color: #E77F7F;
+}
+
+.output{
+    background: #A9EBE5 ;
+    width: 100%;
+    min-height: 405px;
+    padding-top: 225px;
+    padding-left: 20px;
+    border-radius: 25px;
+}
+
+#disenhio{
+
+    width: 95%;
+}
+
+@media screen and (max-width: 800px){
+    .lado-izquierdo{
+        width: 100%;
+    }
+    .lado-derecho{
+        width: 100%;
+    }
+    .output{
+        width: 100%;
+    }
+    .lado-abajo-izquierdo{
+        width: 100%;
+        padding-left: 20%;
+        padding-top: 120px;
+    }
+    .boton-izquierdo{
+        margin-left: 0px;
+    }
+    .boton-derecho{
+        margin-left: 30px;
+    }
+    .copiar{
+       margin-left: 40%;
+       margin-right: 40%;
+    }
+    img{
+        width: 200px;
+    }
+    
+}
